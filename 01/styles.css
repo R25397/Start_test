@@ -1,0 +1,251 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+.header {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 14px;
+    padding-left: 100px;
+    display: flex;
+    flex-grow: 1;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    padding-top: 14px;
+    padding-right: 100px;
+}
+
+.first-box {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding-left: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.main {
+    display: flex;
+    flex-grow: 1;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.third-box {
+    background-color: #E5E7EB;
+    color: black;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+p{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.left {
+    padding-top: 14px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 24px;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    
+}
+
+h5 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 24px;
+}
+
+h6 {
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: #E5E7EB;
+}
+
+h7 {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;   
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+  }
+  
+  button.sign-up1 {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+  }
+
+  button.sign-up2 {
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .right-side img {
+    width: 600px;
+    text-decoration: none;
+    color: #E5E7EB;
+    background-color: rgba(255, 255, 255, 0.255);
+    padding: 100px;
+  }
+
+  .right-side {
+    padding-right: 100px;
+  }
+
+  .left-side {
+    padding-right: 50px;
+    width: 500px;
+  }
+
+  .info img {
+    width: 125px;
+    height: 125px;
+    border-radius: 10%;
+    border: solid royalblue;
+    text-decoration: none;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+
+  .text {
+    font-size: 12px;
+    color: rgb(91, 91, 100);
+    width: 125px;
+  }
+
+  .modal {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    background: #3882F6;
+    color: white;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    flex-grow: 1;
+    flex: 1;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .right-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
